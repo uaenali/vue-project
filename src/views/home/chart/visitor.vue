@@ -1,11 +1,10 @@
-// 用户分布
-
+<!-- // 用户分布
 
 <template>
-    <div>
-        <head-top></head-top>
-        <visitor-pie :pieData="pieData"></visitor-pie>
-    </div>
+  <div>
+    <head-top></head-top>
+    <visitor-pie :pieData="pieData"></visitor-pie>
+  </div>
 </template>
 
 <script>
@@ -40,8 +39,10 @@
 //     		},
 //     	}
 //     }
-// </script>
+//
+</script>
 
-// <style lang="less">
-// 	@import '.././style/mixin';	
-</style>
+//
+<style lang="less">
+// 	@import '.././style/mixin';
+</style> -->
