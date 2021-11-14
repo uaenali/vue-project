@@ -46,7 +46,7 @@ export default {
 
 <style lang="scss" scoped>
 .table {
-  width: 1000px;
-  margin: 50px auto 0;
+  width: 1200px;
+  margin-top: 50px;
 }
 </style>

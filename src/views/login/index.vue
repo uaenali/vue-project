@@ -10,6 +10,7 @@
           :rules="rules"
           ref="ruleForm"
           label-width="100px"
+          class="form"
         >
           <!-- 姓名 -->
           <el-form-item label="用户名" prop="name">
@@ -91,12 +92,17 @@ export default {
     margin-top: 220px;
     .form-wrapper {
       background-color: #fff;
-      width: 400px;
+      width: 380px;
+      height: 400px;
       border-radius: 10px;
       margin: 0 auto;
       box-shadow: 0 0 5px rgb(0, 0, 0, 0.4);
-      padding: 70px 75px 70px 0;
-      transform: translateY(-30px);
+      padding-top: 80px;
+      transform: translateY(-60px);
+      .form {
+        width: 330px;
+        margin-top: 20px;
+      }
       h2 {
         color: #409eff;
         text-align: center;
